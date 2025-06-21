@@ -1,0 +1,117 @@
+.Name {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ButtonRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ButtonRow button {
+  border: 1px solid black;
+  padding: 2% 20%;
+}
+
+
+.LeftAlign {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.InputBox {
+  width: 100%;
+  border: 1px solid black;
+  padding-bottom: 4%;
+}
+
+.FileBox {
+  width: 100%;
+  text-align: center;
+  border: 1px solid black;
+  padding-bottom: 3%;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+.container {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 2%;
+}
+
+.companyBox {
+  border-top: 1px solid green;
+  width: 20%;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.navbar {
+  border-top: 1px solid green;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  padding-left: 60%;
+}
+
+.navItem {
+  padding-left: 5%;
+}
+
+.headerSection {
+  height: 200px;
+  background-color: blue;
+  color: white;
+  padding: 20px;
+}
+
+@media all and (min-width:500px) and (max-width:970px){
+  .container {
+  border-top: none;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2%;
+}
+
+.companyBox {
+  border-top: none;
+  width: 10%;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.navbar {
+  border-top:none;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+   padding-left: 2%; 
+}
+}
+
+/* ------------------------------------------------------------------------ */
+
+.Location{
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 30px 0px ;
+}
+
+.Location>div{
+  border: 1px solid black;
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}

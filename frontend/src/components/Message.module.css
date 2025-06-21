@@ -1,0 +1,172 @@
+
+
+.Name {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ButtonRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ButtonRow button {
+  border: 1px solid black;
+  padding: 2% 20%;
+}
+
+.LeftAlign {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.InputBox {
+  width: 100%;
+  border: 1px solid black;
+  padding-bottom: 4%;
+}
+
+.TextArea {
+  width: 100%;
+  border: 1px solid black;
+  padding-bottom: 10%;
+}
+
+.FileBox {
+  width: 100%;
+  border: 1px solid black;
+  padding-bottom: 3%;
+}
+/* ------------------------------------------------------ */
+
+.container {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 2%;
+}
+
+.companyBox {
+  border-top: 1px solid green;
+  width: 20%;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.navbar {
+  border-top: 1px solid green;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  padding-left: 60%;
+}
+
+.navItem {
+  padding-left: 5%;
+}
+
+.headerSection {
+  height: 200px;
+  background-color: blue;
+  color: white;
+  padding: 20px;
+}
+
+.contentSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 5%;
+}
+
+.story {
+  width: 50%;
+}
+
+.story h1 {
+  margin-bottom: 10px;
+}
+
+.story p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.statItem {
+  color: blue;
+}
+
+.statLabel {
+  color: black;
+}
+
+.imageBox {
+  width: 40%;
+}
+
+@media all and (min-width:500px) and (max-width:970px){
+  .container {
+  border-top: none;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2%;
+}
+
+.companyBox {
+  border-top: none;
+  width: 10%;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.navbar {
+  border-top:none;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+   padding-left: 2%; 
+}
+}
+
+
+
+@media all and (min-width:500px) and (max-width:960px) {
+.contentSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5%;
+}
+.imageBox>img{
+  width: 300px;
+  height: 300px;
+}
+}
+
+
+/* ----------------------------------------------- */
+.footer{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
+@media all and (min-width:500px) and (max-width:960px) {
+  .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
